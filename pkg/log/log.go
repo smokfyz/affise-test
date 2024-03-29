@@ -42,7 +42,7 @@ func Init(logLevel string) {
 		Warning.SetOutput(os.Stdout)
 		fallthrough
 	case "ERROR":
-		Warning.SetOutput(os.Stderr)
+		Error.SetOutput(os.Stderr)
 	default:
 		panic("unsupported log level")
 	}
