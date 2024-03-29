@@ -3,7 +3,6 @@
 ## Tested on
 * macOS 14.3.1
 * docker 25.0.3
-* docker-compose 2.24.5
 
 ## Run server
 1. Run docker
